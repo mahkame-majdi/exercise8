@@ -1,0 +1,515 @@
+@font-face {
+    font-family: 'Mukta Mahee Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Regular'), url('assets/fonts/mukta/MuktaMahee-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mukta Mahee ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee ExtraLight'), url('assets/fonts/mukta/MuktaMahee-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mukta Mahee Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Light'), url('../fonts/mukta/MuktaMahee-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mukta Mahee Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Medium'), url('../fonts/mukta/MuktaMahee-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mukta Mahee SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee SemiBold'), url('../fonts/mukta/MuktaMahee-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mukta Mahee Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee Bold'), url('../fonts/mukta/MuktaMahee-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mukta Mahee ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mukta Mahee ExtraBold'), url('../fonts/mukta/MuktaMahee-ExtraBold.woff') format('woff');
+}
+@font-face {
+  font-family: abril;
+  src: url("assets/fonts/abril/4abc7b446177a4b533468cd3635fe0b6.woff2") format("woff2"),
+  url("assets/fonts/abril/4abc7b446177a4b533468cd3635fe0b6.woff") format("woff");
+}
+body {
+    margin: 0;
+    direction: ltr;
+    font-family: 'Mukta Mahee ExtraLight';
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+li {
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: abril;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #6c757d;
+}
+.description {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 35px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+.container {
+    width: 1600px;
+    margin: 0px auto;
+}
+.text-wrapper {
+    width: 750px;
+    margin: 0 auto;
+}
+.ov {
+    overflow: hidden;
+}
+.header {
+    background: url(assets/images/header.jpg.webp);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    z-index: -1;
+    text-align: center;
+}
+.header:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+    z-index: -1;
+}
+.top-bar {
+    padding: 50px 40px 0 40px;
+}
+.header .top-bar .logo {
+    float: left;
+}
+.header .top-bar .menu {
+    float: right;
+}
+.header .top-bar .menu i {
+    height: auto;
+    font-size: 40;
+}
+.header .main-title {
+    margin-top: 200px;
+}
+.main-title h1 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.header .main-title p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 200;
+}
+.header .main-title a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.header .main-title .button {
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 5%;
+    display: inline-block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1;
+}
+.header .main-title .button a {
+    color:#ffffff;
+    border-bottom: none;
+}
+.header .main-title .button:hover{
+    background: #ffffff;
+}
+.header .scroll {
+    margin-top: 350px;
+}
+.header .scroll i {
+    font-size: 20px;
+}
+.header .scroll p {
+font-size: 15px;
+margin-top: 5px;
+text-transform: uppercase;
+color: #ffffff;
+}
+.welcome {
+    padding: 150px 0px;
+}
+.welcome img {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+.welcome .content {
+    float: left;
+    width: 50%;
+}
+.welcome .text {
+    padding: 170px 0 0 50px;
+    font-weight: 200;
+    font-size: 18px;
+}
+.welcome h2 {
+    padding-bottom: 10px;
+    font-size: 35;
+    font-weight: 100;
+}
+.welcome i {
+    color: #65c0ba;
+    font-size: 30px;
+}
+.welcome .text a {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.welcome .content a p:hover {
+    color: #6c757d;
+}
+.welcome .text a p {
+    display: inline;
+    color: #65c0ba;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1;
+    margin-left: 10px;
+}
+.experience {
+    text-align: center;
+    width: 100%;
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+    padding: 150px 0px;
+}
+.experience .text-wrapper h2 {
+    font-size: 30px;
+}
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 0 20px;
+}
+.box img {
+    width: 70px;
+    height: auto;
+    padding: 20px 0;
+}
+.international {
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+}
+.international h2 {
+    font-size: 80px;
+}
+.international p {
+    margin-bottom: 50px;
+}
+.international .image-box{
+    position: relative;
+    text-align: center;
+    margin-bottom: -300px;
+}
+.international .image-box img {
+    width: 100%;
+    height: auto;
+}
+.international .image-box .dots {
+    position: absolute;
+    color: #ffffff;
+    bottom: 50px;
+    left: 50%;
+}
+.blog {
+    background: #65c0ba;
+    padding-top: 300px;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+.blog .text-wrapper h2 {
+    margin-top: 150px;
+    font-size: 70;
+}
+.blog .description {
+    color: #ffffff;
+}
+.blog::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left: 50%;
+    transform: rotate(-4deg) translateX(-50%) translateY(-100%);
+    background: #ffffff;
+}
+.blog .post {
+    width: 33.33%;
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+}
+.blog .news .post h2:hover {
+    color: #65c0ba;
+}
+.blog .post .holder {
+    padding: 50px 30px;
+}
+.blog .post .fade {
+    color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}
+.blog .post1,
+.blog .post2,
+.blog .post3 {
+    background: #ffffff;
+}
+.blog .post3 {
+    margin-right: 0px;
+}
+.blog .placeholder {
+    margin: 15px;
+}
+.blog .post img {
+    width: 100%;
+    height: auto;
+}
+.customers {
+    background: #fafafa;
+    padding: 150px 0;
+}
+.customers h2 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+.customers ul li{
+    float: left;
+    width: 33.33%;
+    padding-right: 20px;
+}
+.customers ul li .comment img {
+    width: 70px;
+    border-radius: 50%;
+}
+.customers ul li .comment p {
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    line-height: 1.5;
+}
+.customers ul li .quote p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    font-style: italic;
+}
+.destination {
+  padding: 150px 0;
+}
+.destination h1 {
+    text-align: center;
+}
+.destination ul {
+    margin-top: 50px;
+}
+.destination ul li {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.destination ul li img {
+    width: 100%;
+}
+.destination ul li .rate {
+    float:left;
+}
+.destination ul li .view {
+    float:right;
+    color: #cccccc;
+    font-style: italic;
+}
+.destination ul li .rate i {
+    color: #65c0ba;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: small;
+}
+.footer {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.footer ul {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.footer ul h2 {
+    margin-bottom: 20px;
+}
+.footer ul li a {
+    color:  rgba(255, 255, 255, 0.7);
+    line-height: 3;
+    padding: 10px;
+}
+.footer .last {
+    border-bottom: 1px solid #6c757d; 
+}
+.footer .last .sign-up i {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.footer .last .sign-up p {
+    float: left;
+}
+.footer2 {
+    background: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.footer2 p { 
+    margin-top: 50px;
+}
+.footer2 a {
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer2 .wrapper {
+    border-top: 1px solid #6c757d; 
+}
+@media only screen and (max-width: 1650px ) {
+    .container{
+        width: 100%;
+        padding: 0 50px;
+    }
+    .header .top-bar .menu {
+        margin-right: 100px;
+    }
+}
+@media only screen and (max-width: 1170px ) {
+     .wrapper {
+        width: 100%;
+        padding: 0 20px;
+     }
+}
+@media only screen and (max-width: 900px) {
+    .welcome .content {
+        width: 100%;
+    }
+    .experience .box {
+        width: 50%;
+    }
+    .destination ul li {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        padding: 0px 25px;
+    }
+    .wrapper {
+        padding: 0 20px;
+        width: 100%;
+    }
+    p {
+        font-size: 30;
+    }
+    .description {
+        font-size: 30px;
+    }
+    .welcome .text {
+        font-size: 25px;
+    }
+    .experience .box {
+        width: 100%;
+    }
+    .blog .post {
+        width: 100%;
+    }
+    .customers ul li {
+        width: 100%;
+    }
+    .destination ul li {
+        width: 100%;
+    }
+    .text-wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .customers ul li .quote p {
+        font-size: 25px;
+    }
+    .footer ul {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .container {
+        padding: 0px 5px;
+    }
+    .wrapper {
+        padding: 0 5px;
+    }
+    .international h2{
+        font-size: 50px;
+        text-align: center;
+    }
+    .footer ul {
+        width: 100%;
+    }
+    .international .image-box .dots {
+        left: 40%;
+        bottom: 20px;
+    }
+}
